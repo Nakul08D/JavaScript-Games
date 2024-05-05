@@ -1,0 +1,47 @@
+*{
+    margin-top: 2px;
+    background-color: blanchedalmond;
+  
+}
+
+#heading{
+    text-align: center;
+    font-size: 50px;
+    color: tomato;
+}
+
+#gameimg{
+    text-align: center;
+    margin-top: 0px;
+    margin-left:550px;
+    height: 250px; 
+}
+
+.choice{
+    margin-left: 100px;
+    
+}
+.choice:hover{
+    background-color:red;
+    opacity: 0.3;
+    cursor:pointer;
+}
+#scoreboard{
+    text-align: center;
+    margin-top: 2px;
+}
+.score{
+    font-size: 25px;
+    margin: 0px;
+    font-weight: bolder;
+    display: inline-block;
+}
+#result{
+    padding: 15px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 25px;
+    border: 2px solid black;
+}

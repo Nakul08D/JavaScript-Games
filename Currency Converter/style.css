@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: coral;
+}
+.maincontainer{
+    border: none;
+    background-color:white;
+    padding: 1rem;
+    border-radius: 1rem;
+    min-height: 40vh;
+    min-width: 20vw;
+}
+#amount{
+    padding:4px;
+    font-size: medium;
+    border-radius: 2px;
+    outline: none;
+    border-color: antiquewhite;
+}
+.form{
+    margin-top:10%;
+}
+form select,input{
+    width: 100%;
+   
+}
+.list{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.countrylist{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 4px; 
+    background-color: red;
+}
+#msg{
+    margin-top: 1rem;
+    font-weight: bolder;
+    font-size: large;
+}
+#button{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    background-color:rgb(104, 64, 197);
+    font-size: large;
+    color: white;
+}
+.countrylist select{
+    border: none;
+    outline: none;
+}
+
